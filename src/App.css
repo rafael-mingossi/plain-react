@@ -3,39 +3,25 @@
     margin: 0 auto;
     padding: 2rem;
     text-align: center;
-    color: red;
 }
 
-.board {
-}
-
-.status {
-    font-size: 20px;
-    color: white;
-}
-
-.board-row {
+.game {
     display: flex;
     flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
 }
 
-/*
-I see this role as a perfect fit for my career at this moment. I graduated from my university (Bachelor in IT, major in web and mobile dev) in July/2022 and in January/2022 I got my first job as a junior developer (mainly front-end), gaining a great knowledge during the past 3.4 years. After I graduated, I continued my studies focusing in write a better and clean code, trying out some core architecture concepts and design patters that I could fit into my junior developer life to become a better programer. So, when I read about the description of this role, I thought that I could learn and contribute a lot with what I have learnt. I would love the challenge to move more to the backend, designing APIs, and also work in a new project (at least for me), that can scales and it is outstanding.
-I can also see that Updoc has a great culture in terms of work environment, and this is what attracts me the most in relation to the work environment. Being surrounded with great people is captivating. So, yes, I see all of this being part of my career/life for the next 5 years.
+/*.game-board{*/
+/*    width: 50%;*/
+/*}*/
 
+.game-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
 
-The project that I like the most, and I am proud of is my React Native app that is in production. I am not saying it is perfect, but what I can say is that I put lots of effort, using my few free hours of the day to work on it, putting in practice most of the concepts that I have been studying for the past months, and indeed when you have time to structure things properly it is a lot easier to see the outcomes. I started this idea, as something that I could use on daily bases, and since I liked to control my meals (calories and macros) and most of the apps that I tried out there were way too overwhelming with so many features, I decided to build something around this problem.
-So I stated by the front-end because this is what I have more experience, and I tried to bring some aspects of the DDD (Domain Drive Design) to it, structuring the  domains my application would have, organising the services, types, and use cases of each single domain. This kind of structure added to some S.O.L.I.D. principles gave a huge boost in the code, being east to maintaining and to read.
-For the backend, I initially used a simpler approach with supabase, but at this moment I am creating a new backend in NodeJs using AdonisJS and it is being a great experience. I am trying to apply the same concepts of DDD and design patterns like repository pattern to have a better separation of responsibilities.
-The magic of doing all of this, is that even changing the whole backend, in my front end, I just need to change one single file (in the API layer of my architecture) and everything still works perfectly. My UI layer does not need any refactor, the outputs are the same, thanks to the separation of concerns. So, this is why I love this project and the "magic" behind all of these concepts, patters and abstractions.
-
-Well, one thing that I keep locked inside my brain is that nothing in this life is easy. What I mean by that is, I don't believe that only luck would bring a person wisdom, success and satisfaction. I still thing hard work is the only way that you rely only in yourself to achieve the things you want. I am not saying being luck won't bring you good things, but when you try, work hard and achieve what you want, that brings you a huge felling of happiness, and I can speak with property on this because when I came to Australia back in 2016, I worked really hard to pay for my studies, and to change my career that I used to have in Brazil, to be a software engineer.
-So my hot take is that working hard, doing your best is more likely that you will achieve the things you wish.
-
-Well, I've been juggling competing priorities for the past 3 years, since my son came into my life. Being able to handle his needing of attention, my wife's needing of attention (for the past 15 years) and work duties is being a huge effort, but I always manage to succeed all of that in a 24 hours period. The take away from all of that is, I have to always be efficient and work with efficacy on my tasks, because I don't have much time to re-work on something, so I always to try to plan ahead, prepare myself if I know that the event that is coming up is something that I am not familiar with or don't have much experience on it.
-
-
-For most of the projects that I delivered in my previous job, I had some sort of feedback, and with the constructive ones, I always tried to add them into the next project, and by doing that I was at least making sure part of the requirements were met. It also helped guide me, in a way that I knew that the concepts that I was applying were correct. The feeling of missing accomplished is also motivacional to me, making me continue studying and improving for my future tasks.
-
-Yes, I just wanted to introduce myself a bit. I am originally from Brazil, worked for almost 10 years in the finance area, then I moved to Australia back in 2016, with the purpose of changing my career to software development. I've been working towards on that for the past 8 years. I graduated in a Bachelor of IT in 2022, and I have been in love with the software development career so far. Thanks for the opportunity! Rafael
- */
+.li-move {
+    text-align: start;
+}

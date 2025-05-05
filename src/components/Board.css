@@ -1,0 +1,11 @@
+.board {
+}
+
+.status {
+    font-size: 20px;
+}
+
+.board-row {
+    display: flex;
+    flex-direction: row;
+}
